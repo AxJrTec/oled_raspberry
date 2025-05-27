@@ -12,7 +12,7 @@ disp.show()
 width = disp.width
 height = disp.height
 
-def imprimeNombres():
+def mensajes():
     image = Image.new('1', (width, height))
     draw = ImageDraw.Draw(image)
     font = ImageFont.load_default()
@@ -45,4 +45,4 @@ def imprimeNombres():
     disp.image(image)
     disp.show()
 
-imprimeNombres()
+mensajes()
